@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alen C Johnson | Portfolio</title>
+<style>
+:root{--bg:#090d18;--panel:#111a2b;--text:#eef3ff;--muted:#aab6cc;--accent:#7c9cff;--accent2:#5ce1c1}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 85% 5%,#1a2850 0,transparent 28%),var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,90%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:20px}
+.logo{font-weight:800;font-size:1.2rem;letter-spacing:.5px}.logo span{color:var(--accent)}
+.links{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}.links a:hover{color:var(--accent2)}
+.hero{min-height:72vh;display:grid;align-items:center;padding:75px 0 90px}
+.kicker{color:var(--accent2);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:1.05;margin:18px 0}
+h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));background-clip:text;color:transparent}
+.lead{max-width:650px;color:var(--muted);font-size:1.12rem}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:12px 20px;border-radius:10px;background:linear-gradient(100deg,var(--accent),#6b7cff);color:#07101f;font-weight:800;display:inline-block}
+.btn.outline{background:transparent;border:1px solid #53617c;color:var(--text)}
+section{padding:65px 0}.section-title{font-size:2rem;margin-bottom:8px}.sub{color:var(--muted);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:linear-gradient(145deg,rgba(20,31,52,.95),rgba(14,21,36,.95));border:1px solid #26334c;border-radius:17px;padding:24px}
+.card h3{margin-bottom:8px}.card p,.card li{color:var(--muted)}
+.taglist{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}.tag{font-size:.83rem;color:#dce6ff;background:#202e49;border:1px solid #334666;border-radius:30px;padding:5px 11px}
+.timeline{border-left:2px solid #40527a;padding-left:22px;display:grid;gap:18px}
+.timeline .card{position:relative}.timeline .card:before{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:var(--accent2);left:-29px;top:29px}
+.project{display:flex;flex-direction:column;min-height:220px}.project .taglist{margin-top:auto;padding-top:18px}
+.contact a{color:var(--accent2);overflow-wrap:anywhere}
+footer{padding:28px 0;border-top:1px solid #26334c;color:var(--muted);text-align:center}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.links{gap:12px;font-size:.82rem}nav{align-items:flex-start;flex-direction:column}.hero{min-height:60vh;padding:55px 0}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav>
+    <a class="logo" href="#home">alen<span>.</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+
+    </div>
+  </nav>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div>
+   <img src="alenpasss.png" alt="Alen C Johnson">
+    <div class="kicker">Aspiring Software Developer</div>
+    <h1>Hi, I'm Alen C Johnson.<br><span>I build and learn.</span></h1>
+    <p class="lead">I’m an MCA student and a computer applications graduate interested in software development, programming and creating useful digital experiences. I enjoy learning new technologies and turning ideas into practical projects.</p>
+    <div class="actions"><a class="btn" href="#projects">Explore my work ↓</a><a class="btn outline" href="#contact">Get in touch</a></div>
+  </div>
+</section>
+
+<section class="wrap" id="about">
+  <h2 class="section-title">About Me</h2><p class="sub">A little about my journey</p>
+  <div class="card">
+    <p>I am a computer applications graduate currently pursuing my Master of Computer Applications (MCA). I am building my foundation in programming and software development through academic learning, hands-on practice and project work. I value teamwork, continuous learning and solving problems step by step.</p>
+  </div>
+</section>
+
+<section class="wrap" id="education">
+  <h2 class="section-title">Education</h2><p class="sub">My academic background</p>
+  <div class="timeline">
+    <div class="card"><h3>Master of Computer Applications (MCA)</h3><p>Currently pursuing</p></div>
+    <div class="card"><h3>Bachelor of Computer Applications (BCA)</h3><p>Bethania Institute of Management Studies · University of Calicut</p><p>2023 – 2026 · Completed</p></div>
+    <div class="card"><h3>Higher Secondary – Computer Science</h3><p>St. Francis HSS, Mattom · 2021 – 2023</p></div>
+    <div class="card"><h3>SSLC</h3><p>St. Francis HSS, Mattom · 2020 – 2021</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="skills">
+  <h2 class="section-title">Technical Skills</h2><p class="sub">Technologies I’m learning and practising</p>
+  <div class="card">
+    <div class="taglist"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">SQL / MySQL</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Unity</span></div>
+    <p style="margin-top:16px">This list can be updated as you gain experience and build more projects.</p>
+  </div>
+</section>
+
+<section class="wrap" id="projects">
+  <h2 class="section-title">Featured Projects</h2><p class="sub">Academic and innovation work</p>
+  <div class="grid">
+    <article class="card project">
+      <div><h3>360 Degree College View</h3><p>A Unity-based virtual college tour project that gives users an immersive 360-degree view of selected campus locations, helping them explore the college environment digitally.</p></div>
+      <div class="taglist"><span class="tag">Unity</span><span class="tag">Virtual Tour</span><span class="tag">3D Environment</span></div>
+    </article>
+    <article class="card project">
+      <div><h3>Online Battery Power Recharge – YIP Idea</h3><p>An innovation concept exploring ways to make phone battery power available through an online recharge-style service. The idea was presented through the Young Innovators Programme (YIP).</p></div>
+      <div class="taglist"><span class="tag">Innovation</span><span class="tag">YIP</span><span class="tag">Concept Development</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap" id="achievements">
+  <h2 class="section-title">Achievements</h2><p class="sub">Experiences beyond the classroom</p>
+  <div class="grid">
+    <div class="card"><h3>College Cricket Team Captain</h3><p>Developed teamwork, communication and leadership skills while representing the college team.</p></div>
+    <div class="card"><h3>Association Secretary</h3><p>Contributed to student activities and coordination in the Computer Applications association.</p></div>
+    <div class="card"><h3>College Election – BCA Representative</h3><p>Selected as the BCA representative through the college election.</p></div>
+    <div class="card"><h3>Quantitative Aptitude & Logical Reasoning</h3><p>KGiSL MicroCollege · 2025 · Grade A+</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="contact">
+  <h2 class="section-title">Let’s Connect</h2><p class="sub">I’m open to learning opportunities, internships and entry-level software development roles.</p>
+  <div class="card contact">
+    <p><strong>Email:</strong> <a href="mailto:your.email@example.com">alennkd46@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener">www.linkedin.com/in/alen-c-johnson-433536290 URL</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">Add your GitHub profile URL</a></p>
+    <p><strong>mobile:</strong> 8921644598</p>
+    <p style="margin-top:14px;color:var(--muted)">Replace the placeholder contact links with your real details before publishing.</p>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Alen C Johnson · Built with curiosity and code.</div></footer>
+</body>
+</html>
